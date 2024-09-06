@@ -86,4 +86,4 @@ function mostrarDatosRecolectados() {
 }
 
 // Llamar a la función para mostrar datos recolectados cuando la página principal se carga
-document.getElementById('btnDatos').addEventListener('click', mostrarDatosRecolectados);
+document.addEventListener('DOMContentLoaded', mostrarDatosRecolectados);
